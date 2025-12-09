@@ -1,0 +1,8 @@
+curl localhost:8080/posts
+curl localhost:8080/posts/0
+curl localhost:8080/posts/cheap
+curl localhost:8080/posts/expensive
+curl -X DELETE localhost:8080/posts
+curl -X DELETE localhost:8080/posts/0
+curl localhost:8080/posts/count
+curl localhost:8080/posts/author/nikita
