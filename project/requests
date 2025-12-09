@@ -6,3 +6,5 @@ curl -X DELETE localhost:8080/posts
 curl -X DELETE localhost:8080/posts/0
 curl localhost:8080/posts/count
 curl localhost:8080/posts/author/nikita
+curl -X POST localhost:8080/posts -H "Content-Type: application/json" -d "{\"title\":\"title2\",\"price\":1, \"author\":\"nikita\"}"
+curl -X PUT localhost:8080/posts/0 -H "Content-Type: application/json" -d "{\"title\":\"title2\",\"price\":1, \"author\":\"nikita\"}"
